@@ -1,5 +1,5 @@
 const { RestRequestHandler } = require('@cakework/adapters/lib/restRequestHandler');
-const task = require('./onu/demoTask');
+const task = require('./onu/demoTask').default;
 
 const taskHandler = (req) => {
   try {
