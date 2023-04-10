@@ -3,5 +3,5 @@ WORKDIR /app
 
 COPY package*.json ./
 RUN npm install
-RUN npm install tslib
+#RUN npm install tslib
 COPY . .
